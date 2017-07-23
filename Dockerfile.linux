@@ -1,0 +1,20 @@
+# escape=`
+
+FROM lacledeslan/gamesvr-srcds-gesource:linux
+
+LABEL maintainer "Laclede's LAN <contact@lacledeslan.com>"
+
+ENV IMAGE="gamesvr-srcds-gesource-freeplay:linux"
+
+HEALTHCHECK NONE
+
+# UPDATE USERNAME
+RUN usermod -l GESOURCEFreeplay GESOURCE
+
+USER GESOURCEFreeplay
+
+COPY ./dist /app/bin/
+
+COPY ./dist.linux /app/bin/gesource/
+	
+WORKDIR /app/bin/

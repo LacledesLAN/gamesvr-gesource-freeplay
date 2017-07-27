@@ -1,0 +1,16 @@
+L 03/18/2017 - 08:31:57: SourceMod log file session started (file "L20170318.log") (Version "1.9.0.5921")
+L 03/18/2017 - 08:31:57: -------- Mapchange to ge_archives --------
+L 03/18/2017 - 08:31:57: [GEOIP] GeoIP database info: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind 
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sm-cstrike.games/master.games.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sm-cstrike.games/game.csgo.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "core.games/engine.csgo.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "core.games/blacklist.plugins.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "core.games/common.games.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sdkhooks.games/game.fof.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sdkhooks.games/engine.ep2v.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sdkhooks.games/engine.insurgency.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sm-tf2.games.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sdktools.games/game.tf.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sdktools.games/engine.csgo.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] Successfully updated gamedata file "sdktools.games/engine.insurgency.txt"
+L 03/18/2017 - 08:31:58: [UPDATER] SourceMod has been updated, please reload it or restart your server.

@@ -1,0 +1,157 @@
+"Groups"
+{
+	/* num = 1, gid = 0x0 */
+	"Default"
+	{
+		"flags"			""
+		"immunity"		"1"
+
+		"Overrides"
+		{
+		}
+	}
+
+	/* num = 2, gid = 0x2C */
+	"Full Admins"
+	{
+		"flags"			"abcdefghiz"
+		"immunity"		"99"
+
+		"Overrides"
+		{
+		}
+	}
+}
+
+"Admins"
+{
+	/* num = 1, aid = 0x5C, serialno = 0x2*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:3804719"
+		"flags"			"z"
+		"immunity"		"99"
+	}
+
+	/* num = 2, aid = 0x9E, serialno = 0x2*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"1:3648970"
+		"flags"			"z"
+		"immunity"		"99"
+	}
+
+	/* num = 3, aid = 0xE0, serialno = 0x2*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:2507775"
+		"flags"			"z"
+		"immunity"		"99"
+	}
+
+	/* num = 4, aid = 0x122, serialno = 0x2*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:37528077"
+		"flags"			"z"
+		"immunity"		"99"
+	}
+
+	/* num = 5, aid = 0x165, serialno = 0x2*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"1:99301466"
+		"flags"			"z"
+		"immunity"		"99"
+	}
+
+	/* num = 6, aid = 0x1A8, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:753113"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 7, aid = 0x1E9, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:1365877"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 8, aid = 0x22B, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:14250402"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 9, aid = 0x26E, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"1:1626752"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 10, aid = 0x2B0, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:4665189"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 11, aid = 0x2F2, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:2288046"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 12, aid = 0x334, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"1:6618789"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 13, aid = 0x376, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"1:20151723"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+
+	/* num = 14, aid = 0x3B9, serialno = 0x9*/
+	""
+	{
+		"auth"			"steam"
+		"identity"		"0:6518877"
+		"flags"			"abcdegjk"
+		"immunity"		"80"
+	}
+}
+
+"Overrides"
+{
+}

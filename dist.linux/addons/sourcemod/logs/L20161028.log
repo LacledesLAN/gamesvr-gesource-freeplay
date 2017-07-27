@@ -1,0 +1,25 @@
+L 10/28/2016 - 20:00:32: SourceMod log file session started (file "L20161028.log") (Version "1.9.0.5921")
+L 10/28/2016 - 20:00:32: -------- Mapchange to ge_archives --------
+L 10/28/2016 - 20:00:32: [GEOIP] GeoIP database info: GEO-106FREE 20160607 Build 1 Copyright (c) 2016 MaxMind 
+L 10/28/2016 - 20:00:33: [UPDATER] Successfully updated gamedata file "sdkhooks.games/engine.ep2v.txt"
+L 10/28/2016 - 20:00:33: [UPDATER] Successfully updated gamedata file "sdkhooks.games/engine.insurgency.txt"
+L 10/28/2016 - 20:00:33: [UPDATER] Successfully updated gamedata file "sm-tf2.games.txt"
+L 10/28/2016 - 20:00:33: [UPDATER] Successfully updated gamedata file "sdktools.games/game.tf.txt"
+L 10/28/2016 - 20:00:33: [UPDATER] Successfully updated gamedata file "sdktools.games/engine.csgo.txt"
+L 10/28/2016 - 20:00:33: [UPDATER] Successfully updated gamedata file "sdktools.games/engine.insurgency.txt"
+L 10/28/2016 - 20:00:33: [UPDATER] SourceMod has been updated, please reload it or restart your server.
+L 10/28/2016 - 20:33:00: -------- Mapchange to ge_basement_classic --------
+L 10/28/2016 - 20:48:54: -------- Mapchange to ge_bunker --------
+L 10/28/2016 - 21:04:49: -------- Mapchange to ge_temple_classic --------
+L 10/28/2016 - 21:20:42: -------- Mapchange to ge_archives --------
+L 10/28/2016 - 21:36:36: -------- Mapchange to ge_facility --------
+L 10/28/2016 - 21:52:32: -------- Mapchange to ge_egyptian --------
+L 10/28/2016 - 22:08:31: -------- Mapchange to ge_transition --------
+L 10/28/2016 - 22:08:32: -------- Mapchange to ge_bunker --------
+L 10/28/2016 - 22:24:26: -------- Mapchange to ge_facility_classic --------
+L 10/28/2016 - 22:40:20: -------- Mapchange to ge_cradle --------
+L 10/28/2016 - 22:56:23: -------- Mapchange to ge_library_classic --------
+L 10/28/2016 - 23:12:17: -------- Mapchange to ge_archives --------
+L 10/28/2016 - 23:28:10: -------- Mapchange to ge_bunker_classic --------
+L 10/28/2016 - 23:44:05: -------- Mapchange to ge_archives --------
+L 10/28/2016 - 23:59:59: -------- Mapchange to ge_complex --------

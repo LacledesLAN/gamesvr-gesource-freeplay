@@ -20,6 +20,10 @@ COPY --chown=GESourceFreeplay:root ./dist /app/
 
 COPY --chown=GESourceFreeplay:root ./dist.linux /app/gesource/
 
+COPY --chown=GESourceFreeplay:root ./ll-tests/*.sh /app/ll-tests
+
+RUN chmod +x /app/ll-tests/*.sh
+
 WORKDIR /app
 
 USER GESourceFreeplay

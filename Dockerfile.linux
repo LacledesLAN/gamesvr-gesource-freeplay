@@ -1,22 +1,29 @@
 # escape=`
-
-FROM lacledeslan/gamesvr-srcds-gesource:linux
-
-LABEL maintainer "Laclede's LAN <contact@lacledeslan.com>"
-
-ENV IMAGE="gamesvr-srcds-gesource-freeplay:linux"
+FROM lacledeslan/gamesvr-gesource
 
 HEALTHCHECK NONE
 
-# UPDATE USERNAME
-RUN usermod -l GESOURCEFreeplay GESOURCE
+ARG BUILDNODE=unspecified
+ARG SOURCE_COMMIT=unspecified
 
-USER GESOURCEFreeplay
+LABEL com.lacledeslan.build-node=$BUILDNODE `
+      org.label-schema.schema-version="1.0" `
+      org.label-schema.url="https://github.com/LacledesLAN/README.1ST" `
+      org.label-schema.vcs-ref=$SOURCE_COMMIT `
+      org.label-schema.vendor="Laclede's LAN" `
+      org.label-schema.description="LL GoldenEye Source Dedicated Server" `
+      org.label-schema.vcs-url="https://github.com/LacledesLAN/gamesvr-gesource-freeplay"
 
-COPY ./dist /app/bin/
+RUN usermod -l GESourceFreeplay GESource
 
-COPY ./dist.linux /app/bin/gesource/
+COPY --chown=GESourceFreeplay:root ./dist /app/
 
-WORKDIR /app/bin/
+COPY --chown=GESourceFreeplay:root ./dist.linux /app/gesource/
+
+WORKDIR /app
+
+USER GESourceFreeplay
 
 CMD ["/bin/bash"]
+
+ONBUILD USER root

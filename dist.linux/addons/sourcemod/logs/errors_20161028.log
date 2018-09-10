@@ -1,4 +1,0 @@
-L 10/28/2016 - 20:00:32: SourceMod error session started
-L 10/28/2016 - 20:00:32: Info (map "ge_archives") (file "errors_20161028.log")
-L 10/28/2016 - 20:00:32: [SM] Unable to load extension "steamtools.ext": libvstdlib_srv.so: cannot open shared object file: No such file or directory
-L 10/28/2016 - 20:33:00: Error log file session closed.

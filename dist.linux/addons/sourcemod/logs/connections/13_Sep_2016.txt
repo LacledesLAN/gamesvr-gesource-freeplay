@@ -1,4 +1,0 @@
-
-18:02:49 - ===== Map change to ge_archives =====
-
-18:03:28 - <[LL] BEan> <STEAM_ID_LAN> <172.30.0.117> CONNECTED from <Unknown>

@@ -1,0 +1,44 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "docker pull lacledeslan/gamesvr-gesource; docker build . -f Dockerfile.linux -t ll/gamesvr-gesource-freeplay --no-cache --build-arg BUILDNODE=$env:computername;",
+            "dependsOn": "download-sub-modules",
+            "group": "build",
+            "identifier": "build-image",
+            "problemMatcher": [],
+            "promptOnClose": true
+        },
+        {
+            "label": "Build & Execute Self Tests",
+            "type": "shell",
+            "command": "docker run -it --rm ll/gamesvr-gesource-freeplay ./ll-tests/gamesvr-gesource-freeplay.sh;",
+            "dependsOn": "build-image",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "promptOnClose": true
+        },
+        {
+            "label": "Download git submodules",
+            "type": "shell",
+            "command": "git submodule foreach git pull origin master;",
+            "identifier": "download-sub-modules",
+            "problemMatcher": [],
+            "promptOnClose": true
+        },
+        {
+            "label": "Update git submodules",
+            "type": "shell",
+            "command": "git submodule update --recursive --remote;",
+            "problemMatcher": [],
+            "promptOnClose": true
+        }
+    ]
+}

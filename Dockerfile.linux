@@ -23,6 +23,9 @@ COPY --chown=GESource:root ./ll-tests /app/ll-tests
 RUN usermod -l GESourceFreeplay GESource &&`
     chmod +x /app/ll-tests/*.sh
 
+RUN cd /app; echo 232370 > ./steam_appid.txt
+
+
 WORKDIR /app
 
 USER GESourceFreeplay

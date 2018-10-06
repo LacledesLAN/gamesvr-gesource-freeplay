@@ -14,6 +14,15 @@
             "promptOnClose": true
         },
         {
+            "label": "Build & Run Interactive Server",
+            "type": "shell",
+            "command": "docker run -it --net=host lltest/gamesvr-gesource-freeplay /bin/bash -c 'export MALLOC_CHECK_=0 && /app/srcds_run -game gesource +map ge_caves -insecure -norestart +sv_lan 1 +rcon_password test123'",
+            "dependsOn": "build-image",
+            "group": "build",
+            "problemMatcher": [],
+            "promptOnClose": true
+        },
+        {
             "label": "Build & Execute Self Tests",
             "type": "shell",
             "command": "docker run -it --rm lltest/gamesvr-gesource-freeplay ./ll-tests/gamesvr-gesource-freeplay.sh;",

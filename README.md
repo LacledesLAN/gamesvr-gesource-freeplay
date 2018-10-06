@@ -19,13 +19,13 @@ docker pull lacledeslan/gamesvr-gesource-freeplay
 The image includes a test script that can be used to verify its contents. No changes or pull-requests will be accepted to this repository if any tests fail.
 
 ```shell
-docker run --rm lacledeslan/gamesvr-gesource ./ll-tests/gamesvr-gesource.sh
+docker run -it --rm lacledeslan/gamesvr-gesource-freeplay ./ll-tests/gamesvr-gesource-freeplay.sh;
 ```
 
 ### Run Simple, Interactive Server
 
 ```shell
-docker run -it --rm lacledeslan/gamesvr-gesource-freeplay ./ll-tests/gamesvr-gesource-freeplay.sh;
+docker run -it --rm --net=host lacledeslan/gamesvr-gesource-freeplay /bin/bash -c "export MALLOC_CHECK_=0 && ./srcds_run -game gesource +map ge_depot +sv_lan 1 +maxplayers 16"
 ```
 
 ## Getting Started with Game Servers in Docker

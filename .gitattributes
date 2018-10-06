@@ -1,5 +1,1 @@
-/.dockerignore eol=lf
-/Dockerfile.linux eol=lf
-/Dockerfile.windows eol=crlf
-/LICENSE eol=lf
-/README.md eol=lf
+* text eol=lf

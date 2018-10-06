@@ -26,6 +26,18 @@
             "promptOnClose": true
         },
         {
+            "label": "Build & Shell In",
+            "type": "shell",
+            "command": "docker run -it --rm lltest/gamesvr-gesource-freeplay",
+            "dependsOn": "build-image",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "promptOnClose": true
+        },
+        {
             "label": "Download git submodules",
             "type": "shell",
             "command": "git submodule foreach git pull origin master;",

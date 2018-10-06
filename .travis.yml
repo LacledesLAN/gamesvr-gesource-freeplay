@@ -15,8 +15,8 @@ before_install:
 
 script:
   - docker version
-  - docker build --no-cache --tag lacledeslan/gamesvr-gesource-freeplay --build-arg BUILDNODE=TravisCI --build-arg SOURCE_COMMIT="$TRAVIS_COMMIT" -f Dockerfile.linux .
-  - docker run -it --rm lacledeslan/gamesvr-gesource-freeplay ./ll-tests/gamesvr-gesource-freeplay.sh
+  - docker build --no-cache --tag lltest/gamesvr-gesource-freeplay --tag lacledeslan/gamesvr-gesource-freeplay --build-arg BUILDNODE=TravisCI --build-arg SOURCE_COMMIT="$TRAVIS_COMMIT" -f Dockerfile.linux .
+  - docker run -it --rm lltest/gamesvr-gesource-freeplay ./ll-tests/gamesvr-gesource-freeplay.sh
 
 notifications:
   slack:

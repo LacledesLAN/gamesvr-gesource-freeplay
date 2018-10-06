@@ -1,4 +1,4 @@
-# Laclede's LAN GoldenEye Source Freeplay Dedicated Server in Docker
+![Laclede's LAN GoldenEye: Source Dedicated Freeplay Server](https://raw.githubusercontent.com/LacledesLAN/gamesvr-gesource-freeplay/master/.misc/banner-gesource-freeplay.png "Laclede's LAN GoldenEye: Source Dedicated Freeplay Server")
 
 This repository is maintained by [Laclede's LAN](https://lacledeslan.com). Its contents are heavily tailored and tweaked for use at our charity LAN-Parties. For third-parties we recommend using this repo only as a reference example and then build your own using the parent project [gamesvr-gesource](https://github.com/LacledesLAN/gamesvr-gesource) as the base image for your customized server.
 

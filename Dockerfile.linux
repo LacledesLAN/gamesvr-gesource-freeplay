@@ -25,7 +25,6 @@ RUN usermod -l GESourceFreeplay GESource &&`
 
 RUN cd /app; echo 232370 > ./steam_appid.txt
 
-
 WORKDIR /app
 
 USER GESourceFreeplay

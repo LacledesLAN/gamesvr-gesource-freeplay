@@ -6,7 +6,7 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "docker pull lacledeslan/gamesvr-gesource; docker build . -f Dockerfile.linux -t ll/gamesvr-gesource-freeplay --no-cache --build-arg BUILDNODE=$env:computername;",
+            "command": "docker pull lacledeslan/gamesvr-gesource; docker build . -f Dockerfile.linux --no-cache -t ll/gamesvr-gesource-freeplay --no-cache --build-arg BUILDNODE=$env:computername;",
             "dependsOn": "download-sub-modules",
             "group": "build",
             "identifier": "build-image",

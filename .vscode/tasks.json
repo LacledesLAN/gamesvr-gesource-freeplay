@@ -7,7 +7,7 @@
             "label": "Build",
             "type": "shell",
             "command": "docker pull lacledeslan/gamesvr-gesource; docker build . -f Dockerfile.linux --no-cache -t lltest/gamesvr-gesource-freeplay --no-cache --build-arg BUILDNODE=$env:computername;",
-            "dependsOn": "download-sub-modules",
+            "dependsOn": "",
             "group": "build",
             "identifier": "build-image",
             "problemMatcher": [],

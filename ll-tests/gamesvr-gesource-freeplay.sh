@@ -166,6 +166,8 @@ should_lack 'SourceMod has been updated, please reload it or restart your server
 
 # Verify server responds to commands
 should_echo "say STARTING COMMAND TESTS" 'Console: STARTING COMMAND TESTS';
+should_echo "meta version" 'Metamod:Source Version Information';
+should_echo "sm version" 'SourceMod Version Information'
 #####################################################################################################
 #####################################################################################################
 

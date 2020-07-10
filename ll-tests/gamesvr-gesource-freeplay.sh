@@ -152,22 +152,22 @@ should_lack 'Server restart in 10 seconds' 'Server is not boot-looping';
 should_lack 'Running the dedicated server as root' 'Server is not running under root';
 should_have 'Game.dll loaded for "GoldenEye: Source"' 'srcds_run loaded GoldenEye Source';
 should_lack 'map load failed:' 'Server was able to load a map';
-should_lack '[SM] Logging has been disabled' 'SourceMod logging is not disabled.'
+###should_lack '[SM] Logging has been disabled' 'SourceMod logging is not disabled.'
 should_have 'Server logging enabled.' 'Server logging enabled.'
-should_have '======================BEGIN SERVER STATUS======================' 'LL status mod ran';
-should_lack '<Error>' 'LL status mod reports no errors';
-should_have 'Server Status-LL MOD' 'LL status mod reports itself';
-should_have 'Log Connections - LL Mod' 'LL status mod reports LL version of "log connections"';
-should_have 'Admin File Reader' 'LL status mod reports admin file reader';
-should_have 'Basic Info Triggers' 'LL status mod reports basic info triggers';
-should_have 'Basic Comm Control' 'LL status mod reports basic comm control';
-should_have 'Anti-Flood' "LL status mod reports anti-flood";
-should_lack 'SourceMod has been updated, please reload it or restart your server' 'SourceMod is not requesting restart'
+###should_have '======================BEGIN SERVER STATUS======================' 'LL status mod ran';
+###should_lack '<Error>' 'LL status mod reports no errors';
+###should_have 'Server Status-LL MOD' 'LL status mod reports itself';
+###should_have 'Log Connections - LL Mod' 'LL status mod reports LL version of "log connections"';
+###should_have 'Admin File Reader' 'LL status mod reports admin file reader';
+###should_have 'Basic Info Triggers' 'LL status mod reports basic info triggers';
+###should_have 'Basic Comm Control' 'LL status mod reports basic comm control';
+###should_have 'Anti-Flood' "LL status mod reports anti-flood";
+###should_lack 'SourceMod has been updated, please reload it or restart your server' 'SourceMod is not requesting restart'
 
 # Verify server responds to commands
 should_echo "say STARTING COMMAND TESTS" 'Console: STARTING COMMAND TESTS';
-should_echo "meta version" 'Metamod:Source Version Information';
-should_echo "sm version" 'SourceMod Version Information'
+###should_echo "meta version" 'Metamod:Source Version Information';
+###should_echo "sm version" 'SourceMod Version Information'
 #####################################################################################################
 #####################################################################################################
 

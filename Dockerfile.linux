@@ -14,9 +14,13 @@ LABEL com.lacledeslan.build-node=$BUILDNODE `
       org.label-schema.description="LL GoldenEye Source Dedicated Server" `
       org.label-schema.vcs-url="https://github.com/LacledesLAN/gamesvr-gesource-freeplay"
 
-COPY --chown=GESource:root ./sourcemod.linux /app/gesource/
-COPY --chown=GESource:root ./sourcemod-configs /app/gesource/
+
+#COPY --chown=GESource:root ./sourcemod.linux /app/gesource/
+
+#COPY --chown=GESource:root ./sourcemod-configs /app/gesource/
+
 COPY --chown=GESource:root ./dist /app/
+
 COPY --chown=GESource:root ./ll-tests /app/ll-tests
 
 # UPDATE USERNAME & ensure permissions

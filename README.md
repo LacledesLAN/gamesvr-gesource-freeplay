@@ -1,12 +1,12 @@
+# Laclede's LAN GoldenEye: Source Dedicated Freeplay Server
+
 ![Laclede's LAN GoldenEye: Source Dedicated Freeplay Server](https://raw.githubusercontent.com/LacledesLAN/gamesvr-gesource-freeplay/master/.misc/banner-gesource-freeplay.png "Laclede's LAN GoldenEye: Source Dedicated Freeplay Server")
 
 This repository is maintained by [Laclede's LAN](https://lacledeslan.com). Its contents are heavily tailored and tweaked for use at our charity LAN-Parties. For third-parties we recommend using this repo only as a reference example and then build your own using the parent project [gamesvr-gesource](https://github.com/LacledesLAN/gamesvr-gesource) as the base image for your customized server.
 
 ## Linux Container
 
-[![Build Status](https://travis-ci.org/LacledesLAN/gamesvr-gesource-freeplay.svg?branch=master)](https://travis-ci.org/LacledesLAN/gamesvr-gesource-freeplay)
-[![](https://images.microbadger.com/badges/version/lacledeslan/gamesvr-gesource-freeplay.svg)](https://microbadger.com/images/lacledeslan/gamesvr-gesource-freeplay "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/lacledeslan/gamesvr-gesource-freeplay.svg)](https://microbadger.com/images/lacledeslan/gamesvr-gesource-freeplay "Get your own image badge on microbadger.com")
+[![linux/amd64](https://github.com/LacledesLAN/gamesvr-gesource-freeplay/actions/workflows/build-linux-image.yml/badge.svg?branch=master)](https://github.com/LacledesLAN/gamesvr-gesource-freeplay/actions/workflows/build-linux-image.yml)
 
 ### Download
 
